@@ -1,0 +1,86 @@
+/* body{background-image:url("img/DJI_0102.JPG"); background-position-x:center;} */
+
+html>/**/body {overflow-y:scroll;}
+body{background-color:#231F20; }
+.wrap{width:1000px; height:auto; margin:auto; overflow-y:none;}
+.header_pc{width:1000px; height:250px;  margin:auto;
+}
+.logo_wrap_pc{height:100%; width:250px; margin:auto; }
+.nav_pc{width:1000px; height:30px; margin:auto; margin-bottom:10px; font-size:18px; }
+.ul_pc{width:500px; margin:auto;}
+.li_pc{padding-top:10px; float:left;  width:calc(100%/3); text-align:center;  }
+.li_pc a{color:#fff;}
+
+
+
+/* home */
+.main_pc{width:1000px; height:auto; margin:auto; }
+
+
+
+
+
+
+
+/* carrer */
+.portfolio_pc{width:1000px; height:auto; margin:auto; background-color:#231f20;  }
+.category{font-size:15px; }
+.category a{color:rgba(255, 255, 255, 0.678);}
+
+.content_wrap{width:100%; }
+.content_ul_pc{width:950px;  margin:auto;  margin-top:35px;  }
+.content_ul_pc:after{content:""; display:block; clear:both;}
+.content_li_pc{width:45%;  margin-bottom:150px; }
+
+.content_li_thirdrow_pc{float:left; width:275px; height:155px; margin-bottom:20px;}
+
+.content_li_thirdrow_pc:nth-child(3n+1){float:left; width:31%; margin-right:3.5%;  } 
+.content_li_thirdrow_pc:nth-child(2n){float:left; width:31%;  }
+.content_li_thirdrow_pc:nth-child(3n){float:right; width:31%; }
+
+
+.content_li_pc:nth-child(n){float:right; }
+.content_li_pc:nth-child(2n+1){float:left;}
+
+
+/* about */
+.info_pc{width:1000px; margin:auto; height:1200px; background-color:#f03;}
+.about_main_pc{color:#fff; margin-bottom:20px; margin-top:60px;}
+.pf_pc{width:200px; height:200px; background-image:url("../img/man.jpg"); background-repeat: no-repeat; background-size: cover;
+border-radius:50%;}
+
+
+/* contact */
+.contact_pc{width:1000px; margin:auto; height:1200px; background-color:#564;}
+.contact_main_pc{color:#fff; margin-bottom:20px; margin-top:60px;}
+
+
+
+
+
+/* footer */
+.footer_pc{height:200px; color:#fff; font-weight:normal; text-align:right; }
+
+
+
+.hover:hover ~ .catagory{display:block;}
+
+
+/* 반응형 구간 */
+/* 
+@media screen and (max-width:1000px){
+
+.portfolio_pc{width:100%; background-color:#f03;}
+.content_ul_pc{width:95%; }
+body{background-color:#75f011; }
+
+
+
+    .content_li_thirdrow_pc{width:45%; height:auto;}
+    .content_li_thirdrow_pc:nth-child(even){float:left; width:45%; height:auto;}
+    .content_li_thirdrow_pc:nth-child(odd){float:right; width:45%; height:auto;}
+
+}
+
+
+@media screen and (max-width:700px){ */

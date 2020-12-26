@@ -11,7 +11,7 @@ body{background-color:#231F20; }
 .li_pc{padding-top:10px; float:left;  width:calc(100%/3); text-align:center;  }
 .li_pc a{color:#fff;}
 
-.category{font-size:15px; width:1000px; height:28px;  display:none; }
+.category{font-size:15px; width:610px; position:relative; right:250px; height:28px; display:none; }
 .category a{color:rgba(255, 255, 255, 0.678); float:left; margin-left:15px;}
 
 
@@ -29,7 +29,7 @@ body{background-color:#231F20; }
 
 
 .content_wrap{width:100%; position:relative;  }
-.text{ color:#fff; position: fixed;}
+.text{ color:#fff; position: fixed; display:none;}
 .content_ul_pc{width:950px;  margin:auto;  margin-top:35px;  }
 .content_ul_pc:after{content:""; display:block; clear:both;}
 .content_li_pc{width:45%;  margin-bottom:150px; }

@@ -7,10 +7,12 @@ body{background-color:#231F20; }
 }
 .logo_wrap_pc{height:100%; width:250px; margin:auto; }
 .nav_pc{width:1000px; height:30px; margin:auto; margin-bottom:10px; font-size:18px; }
-.ul_pc{width:500px; margin:auto;}
+.ul_pc{width:500px; height:200px;  margin:auto; b}
 .li_pc{padding-top:10px; float:left;  width:calc(100%/3); text-align:center;  }
 .li_pc a{color:#fff;}
 
+.category{font-size:15px; width:1000px; height:28px;  display:none; }
+.category a{color:rgba(255, 255, 255, 0.678); float:left; margin-left:20px;}
 
 
 /* home */
@@ -24,8 +26,7 @@ body{background-color:#231F20; }
 
 /* carrer */
 .portfolio_pc{width:1000px; height:auto; margin:auto; background-color:#231f20;  }
-.category{font-size:15px; }
-.category a{color:rgba(255, 255, 255, 0.678);}
+
 
 .content_wrap{width:100%; }
 .content_ul_pc{width:950px;  margin:auto;  margin-top:35px;  }
@@ -45,8 +46,8 @@ body{background-color:#231F20; }
 
 /* about */
 .info_pc{width:1000px; margin:auto; height:1200px; background-color:#f03;}
-.about_main_pc{color:#fff; margin-bottom:20px; margin-top:60px;}
-.pf_pc{width:200px; height:200px; background-image:url("../img/man.jpg"); background-repeat: no-repeat; background-size: cover;
+.about_main_pc{color:#fff; margin-bottom:20px; margin-top:60px; text-align:center;}
+.pf_pc{width:200px; height:200px; margin:auto; background-image:url("../img/man.jpg"); background-repeat: no-repeat; background-size: cover;
 border-radius:50%;}
 
 
@@ -63,7 +64,11 @@ border-radius:50%;}
 
 
 
-.hover:hover ~ .catagory{display:block;}
+/* .hover:hover{background-color:rgb(37, 74, 177)}
+
+.hover:hover > .category{display:block;}
+
+.nav_pc ul li a:visited > .category{display:block;} */
 
 
 /* 반응형 구간 */

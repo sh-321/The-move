@@ -81,6 +81,7 @@ border-radius:50%;}
 body{}
 
 /* 메뉴 */
+.content_ul_pc{margin-top:80px;}
 .nav_pc{width:100%;}
 .ul_pc{width:90%; font-size:50px;}
 
@@ -89,6 +90,7 @@ body{}
 
 /* 어바웃 */
 .about_main_pc{font-size:30px;}
+.pf_pc{width:400px; height:400px;}
 
 /* 콘텍트 */
 .contact_main_pc{font-size:30px;}

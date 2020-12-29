@@ -73,20 +73,27 @@ border-radius:50%;}
 
 
 /* 반응형 구간 */
-/* 
+
 @media screen and (max-width:1000px){
 
-.portfolio_pc{width:100%; background-color:#f03;}
+.portfolio_pc{width:100%;}
 .content_ul_pc{width:95%; }
-body{background-color:#75f011; }
+body{}
+
+/* 메뉴 */
+.nav_pc{width:100%;}
+.ul_pc{width:90%; font-size:30px;}
 
 
 
-    .content_li_thirdrow_pc{width:45%; height:auto;}
-    .content_li_thirdrow_pc:nth-child(even){float:left; width:45%; height:auto;}
-    .content_li_thirdrow_pc:nth-child(odd){float:right; width:45%; height:auto;}
+/* 어바웃 */
+.about_main_pc{font-size:20px;}
 
-}
+/* 콘텍트 */
+.contact_main_pc{font-size:20px;}
+.contact_main_pc{text-align:center;}
 
 
-@media screen and (max-width:700px){ */
+/* 푸터 */
+.footer_pc{font-size:20px; text-align:center;}
+@media screen and (max-width:700px){

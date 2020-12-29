@@ -83,25 +83,26 @@ body{}
 /* 헤더 */
 .logo_wrap_pc{width:400px;}
 .header_pc{height:350px;}
-/* 메뉴 */
+/* 메뉴 */ 
+.wrap{width:100%;}
 .content_ul_pc{margin-top:110px;}
 .nav_pc{width:100%;}
-.ul_pc{width:90%; font-size:50px;}
+.ul_pc{width:90%; font-size:1.5em;}
 
-.category{font-size:30px; }
+
 .category a{display:none; color:#231F20; visibility: hidden;}
 
 /* 어바웃 */
-.about_main_pc{font-size:30px;}
+.about_main_pc{font-size:1.5em;}
 .pf_pc{width:400px; height:400px;}
 
 /* 콘텍트 */
-.contact_main_pc{font-size:30px;}
+.contact_main_pc{font-size:1.5em;}
 .contact_main_pc{text-align:center;}
 
 
 /* 푸터 */
-.footer_pc{font-size:30px; text-align:center;}
+.footer_pc{font-size:1.5em; text-align:center;}
 
 
 

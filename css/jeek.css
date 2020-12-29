@@ -80,6 +80,9 @@ border-radius:50%;}
 .content_ul_pc{width:95%; }
 body{}
 
+/* 헤더 */
+.logo_wrap_pc{width:400px;}
+.header_pc{height:350px;}
 /* 메뉴 */
 .content_ul_pc{margin-top:110px;}
 .nav_pc{width:100%;}

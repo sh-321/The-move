@@ -7,8 +7,8 @@ body{background-color:#231F20; }
 }
 .logo_wrap_pc{height:100%; width:250px; margin:auto; }
 .nav_pc{width:1000px; height:30px; margin:auto; margin-bottom:10px; font-size:18px; }
-.ul_pc{width:500px; height:200px;  margin:auto; b}
-.li_pc{padding-top:10px; float:left;  width:calc(100%/3); text-align:center;  }
+.ul_pc{width:500px; height:200px;  margin:auto; }
+.li_pc{padding-top:10px; float:left; width:calc(100%/3); text-align:center;}
 .li_pc a{color:#fff;}
 
 .category{font-size:15px; width:610px; position:relative; right:250px; height:28px; display:none; }
@@ -88,7 +88,8 @@ body{}
 .nav_pc{width:100%;}
 .ul_pc{width:90%; font-size:50px;}
 
-.category{font-size:30px; color:#231F20; }
+.category{font-size:30px; }
+.category a{display:none;}
 
 /* 어바웃 */
 .about_main_pc{font-size:30px;}

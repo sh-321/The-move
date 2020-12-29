@@ -88,8 +88,7 @@ body{}
 .nav_pc{width:100%;}
 .ul_pc{width:90%; font-size:50px;}
 
-.category{font-size:30px;}
-
+.category{font-size:30px; color:#231F20; }
 
 /* 어바웃 */
 .about_main_pc{font-size:30px;}
@@ -102,4 +101,6 @@ body{}
 
 /* 푸터 */
 .footer_pc{font-size:30px; text-align:center;}
-@media screen and (max-width:700px){
+
+
+

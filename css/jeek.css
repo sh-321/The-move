@@ -89,7 +89,7 @@ body{}
 .ul_pc{width:90%; font-size:50px;}
 
 .category{font-size:30px; }
-.category a{display:none;}
+.category a{display:none; color:#231F20; visibility: hidden;}
 
 /* 어바웃 */
 .about_main_pc{font-size:30px;}

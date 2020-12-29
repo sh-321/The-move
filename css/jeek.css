@@ -82,18 +82,19 @@ body{}
 
 /* 메뉴 */
 .nav_pc{width:100%;}
-.ul_pc{width:90%; font-size:30px;}
+.ul_pc{width:90%; font-size:50px;}
 
+.category{font-size:30px;}
 
 
 /* 어바웃 */
-.about_main_pc{font-size:20px;}
+.about_main_pc{font-size:30px;}
 
 /* 콘텍트 */
-.contact_main_pc{font-size:20px;}
+.contact_main_pc{font-size:30px;}
 .contact_main_pc{text-align:center;}
 
 
 /* 푸터 */
-.footer_pc{font-size:20px; text-align:center;}
+.footer_pc{font-size:30px; text-align:center;}
 @media screen and (max-width:700px){

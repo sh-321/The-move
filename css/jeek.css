@@ -1,9 +1,9 @@
 /* body{background-image:url("img/DJI_0102.JPG"); background-position-x:center;} */
 
 html>/**/body {overflow-y:scroll;}
-body{background-color:#231F20; }
-.wrap{width:1000px; height:auto; margin:auto; overflow-y:none;}
-.header_pc{width:1000px; height:250px;  margin:auto;
+body{background-color:#231F20; min-width:750px; }
+.wrap{width:1000px; min-width:750px; height:auto; margin:auto; overflow-y:none;}
+.header_pc{width:1000px; height:250px;   margin:auto;
 }
 .logo_wrap_pc{height:100%; width:250px; margin:auto; }
 .nav_pc{width:1000px; height:30px; margin:auto; margin-bottom:10px; font-size:18px; }
@@ -84,7 +84,7 @@ body{}
 .logo_wrap_pc{width:400px;}
 .header_pc{height:350px;}
 /* 메뉴 */ 
-.wrap{width:100%;}
+.wrap{width:100%; }
 .content_ul_pc{margin-top:110px;}
 .nav_pc{width:100%;}
 .ul_pc{width:90%; font-size:1.5em;}
